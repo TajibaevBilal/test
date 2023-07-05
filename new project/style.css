@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 100%;
+    height: 960px;
+    background-image:url(./main-screen__bgc.png);
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+.header_img{
+    width: 300px;
+}
+#header{
+    display: flex;
+    justify-content: space-between;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+}
+.nav li{
+    color: #fff;
+    list-style: none;
+    font-size: 16px;
+}
